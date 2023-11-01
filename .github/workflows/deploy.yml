@@ -19,10 +19,10 @@ jobs:
 
       - name: Build and publish
         run: dotnet publish -c Release -o publish 
-        working-directory: . 
+        working-directory: ./Pages
 
       - name: Deploy to GitHub Pages
         uses: peaceiris/actions-gh-pages@v3
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_dir: ./Pages # Altere para o caminho do diretório de publicação do seu projeto
+          publish_dir: . # Altere para o caminho do diretório de publicação do seu projeto
