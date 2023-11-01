@@ -1,0 +1,15 @@
+﻿@page "~/renderqrcode/{content?}"
+@model qrcode.Pages.RenderQrCodeModel
+
+@{
+    ViewData["Title"] = "seu qrcode está pronto \ud83d\ude0e";
+}
+<h1>@ViewData["Title"]</h1>
+
+<div class="text-center">
+  <img src=@Model.imageSource class="rounded" alt="QRCode" width="400" height="400">
+</div>
+
+<div class="col-12">
+    <a asp-page="Index"><button class="btn btn-primary">Voltar</button></a>
+</div>
