@@ -7,18 +7,18 @@
 <h1>@ViewData["Title"]</h1>
 
 <form method="post">
-      <div class="form-floating mb-3">
+    <div class="form-floating mb-3">
         <input asp-for="ContentQrCode" class="form-control" id="floatingInput" placeholder="Conteúdo QR Code">
         <span asp-validation-for="ContentQrCode" class="text-danger"></span>
         <label for="floatingInput">Informe uma URL para gerar o qrcode</label>
-      </div>
-  
+    </div>
+
     <div class="col-12">
         <button asp-page="RenderQrCode" class="btn btn-primary" type="submit">Gerar QR Code</button>
     </div>
-    
+
 </form>
 
 @section scripts{
-   <partial name="_ValidationScriptsPartial" />
+    <partial name="_ValidationScriptsPartial"/>
 }

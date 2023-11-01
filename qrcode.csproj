@@ -21,4 +21,8 @@
     <Compile Remove="Pages\Privacy.cshtml.cs" />
   </ItemGroup>
 
+  <ItemGroup>
+    <None Remove="index.html" />
+  </ItemGroup>
+
 </Project>
