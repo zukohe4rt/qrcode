@@ -18,8 +18,8 @@ jobs:
           dotnet-version: 7.0.100
 
       - name: Build and publish
-        run: dotnet publish -c Release -o qrcode
-        working-directory: /Pages/Index.cstml
+        run: dotnet publish -c Release -o
+        working-directory: qrcode/Pages/Index.cstml
 
       - name: Deploy to GitHub Pages
         uses: peaceiris/actions-gh-pages@v3
