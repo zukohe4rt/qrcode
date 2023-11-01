@@ -18,11 +18,11 @@ jobs:
           dotnet-version: 7.0.100
 
       - name: Build and publish
-        run: dotnet publish -c Release -o 
-        working-directory: ./qrcode/Pages
+        run: dotnet publish -c Release -o
+        working-directory: Pages
 
       - name: Deploy to GitHub Pages
         uses: peaceiris/actions-gh-pages@v3
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_dir: ./qrcode/Pages/published-app
+          publish_dir: /Pages/Index.cstml
