@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "j3TAoLrj1B85+cwBOgNBYGnGxbDukD/9m8YBcQItga2HQfBfFN3kaR3VgRL7qajMy+fkWeEZoE4jUY0ewFQjpg==",
+  "success": true,
+  "projectFilePath": "D:\\zuko\\dev\\C#\\qrcode\\qrcode.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\gustavo\\.nuget\\packages\\microsoft.win32.systemevents\\7.0.0\\microsoft.win32.systemevents.7.0.0.nupkg.sha512",
+    "C:\\Users\\gustavo\\.nuget\\packages\\qrcoder\\1.4.2\\qrcoder.1.4.2.nupkg.sha512",
+    "C:\\Users\\gustavo\\.nuget\\packages\\system.drawing.common\\7.0.0\\system.drawing.common.7.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}
