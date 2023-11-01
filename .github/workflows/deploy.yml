@@ -18,7 +18,7 @@ jobs:
           dotnet-version: 7.0.100
 
       - name: Build and publish
-        run: dotnet publish -c Release -o publish qrcode/qrcode.csproj
+        run: dotnet publish -c Release -o publish 
         working-directory: . 
 
       - name: Deploy to GitHub Pages
