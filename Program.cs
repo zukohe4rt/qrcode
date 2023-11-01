@@ -5,11 +5,7 @@ builder.Services.AddRazorPages();
 
 var app = builder.Build();
 
-app.MapGet("/", () =>
-{
-    var indexContent = System.IO.File.ReadAllText("Pages/Index.cshtml");
-    return Results.Text(indexContent, "text/html");
-});
+
 
 // Configure the HTTP request pipeline.
 if (!app.Environment.IsDevelopment())
