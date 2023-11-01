@@ -19,7 +19,7 @@ jobs:
 
       - name: Build and publish
         run: dotnet publish -c Release -o 
-        working-directory: ./qrcode/Pages
+        working-directory: Pages
 
       - name: Deploy to GitHub Pages
         uses: peaceiris/actions-gh-pages@v3
