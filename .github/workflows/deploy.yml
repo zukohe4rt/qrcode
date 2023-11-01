@@ -18,8 +18,8 @@ jobs:
           dotnet-version: 7.0.100
 
       - name: Build and publish
-        run: dotnet publish -c Release -o publish
-        working-directory: . # Especifica o diretório onde está o arquivo index.cshtml
+        run: dotnet publish -c Release -o publish qrcode/qrcode.csproj
+        working-directory: . 
 
       - name: Deploy to GitHub Pages
         uses: peaceiris/actions-gh-pages@v3
